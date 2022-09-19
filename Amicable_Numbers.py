@@ -1,15 +1,15 @@
 a=int(input())
 sum1=0
+b=int(input())
+sum2=0
 for i in range(1,a):
     if a%i==0:
         sum1+=i
-
-b=int(input())
-sum2=0
-for i in range(1,b):
-    if b%i==0:
-        sum2+=i
-if (sum2==a) and (sum1==b):
-    print("Amicable")
+for j in range(1,b):
+    if b%j==0:
+        sum2+=j
+if sum1==b and sum2==a:
+    print('Amicable')
 else:
-    print("Not Amicable")
+    print('Not Amicable')
+    
