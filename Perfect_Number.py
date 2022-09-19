@@ -1,9 +1,12 @@
-a=int(input())
+n=int(input())
+l=[]
+for i in range(1,n):
+    if n%i==0:
+        l.append(i)
 sum=0
-for i in range(1,a):
-    if a%i==0:
-        sum+=i
-if(sum==a):
-    print(True)
+for j in l:
+    sum+=j
+if sum==n:
+    print('True')
 else:
-    print(False)
+    print('False')
