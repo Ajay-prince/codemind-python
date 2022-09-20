@@ -5,7 +5,6 @@ while 1:
         r=n%10
         pro+=r*r
         n=n//10
-    
     if pro<10 and pro==1:
         print('True')
         break
@@ -15,7 +14,3 @@ while 1:
     else:
         n=pro
         pro=0
-
-    
-        
-    
