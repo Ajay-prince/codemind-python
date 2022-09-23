@@ -1,7 +1,5 @@
 a,b=map(int,input().split())
-if b==a+1 or a+b==11:
-    print('Yes')
-elif b==a-1:
+if a-b==1 or a-b==-1 or a-b==9 or a-b==-9:
     print('Yes')
 else:
     print('No')
