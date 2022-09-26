@@ -1,0 +1,5 @@
+n=int(input())
+l=list(map(int,input().split()))
+avg=sum(l)/len(l)
+avg1="{:.2f}".format(avg)
+print(avg1)
