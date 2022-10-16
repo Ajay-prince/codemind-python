@@ -1,5 +1,5 @@
 n=int(input())
-t=n
+primes=[]
 if n>1:
     for i in range(2,int(n**0.5)+1):
         if n%i==0:
@@ -7,6 +7,7 @@ if n>1:
             break
     else:
         isprime=True
+t=n
 rev=0
 while n>0:
     re=n%10
@@ -25,4 +26,5 @@ elif isprime==True and isprime1==False:
     print('prime but not a circular prime')
 else:
     print('not prime')
+    
     
