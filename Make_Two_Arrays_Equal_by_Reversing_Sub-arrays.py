@@ -1,0 +1,7 @@
+n=int(input())
+l=list(map(int,input().split()))
+n1=int(input())
+l2=list(map(int,input().split()))
+l3=sorted(l)
+l4=sorted(l2)
+print(l3==l4)
