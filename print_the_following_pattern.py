@@ -1,13 +1,13 @@
 n=int(input())
-matrix=[]
+capital=['A','B','C','D','E','F','G','H'
+,'I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z']
+l=[]
 for i in range(n):
-    l=[]
-    for j in range(1,n+1):
-        l.append(j)
-    matrix.append(l)
-    n-=1
-matrix.reverse()
-for y in matrix:
-    for k in y:
-        print(k,end='')
+    l.append(capital[i])
+l.reverse()
+for k in l:
+    for j in range(n):
+        print(k,end=' ')
     print()
+    n-=1
+    
