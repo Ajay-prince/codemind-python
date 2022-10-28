@@ -4,10 +4,10 @@ capital=['A','B','C','D','E','F','G','H'
 l=[]
 for i in range(n):
     l.append(capital[i])
-l.reverse()
+
 for k in l:
     for j in range(n):
         print(k,end=' ')
     print()
-    n-=1
+    
     
